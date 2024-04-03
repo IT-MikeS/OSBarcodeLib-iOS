@@ -8,6 +8,6 @@ Pod::Spec.new do |spec|
   spec.author = "OutSystems"
   spec.ios.deployment_target  = '13.0'
   spec.swift_version = '5.1'
-  spec.source = { :http => "https://github.com/IT-MikeS/OSBarcodeLib-iOS/releases/download/v#{spec.version}/OSBarcodeLib.xcframework.zip" }
+  spec.source = { :http => "https://github.com/IT-MikeS/OSBarcodeLib-iOS/releases/download/v#{spec.version}/OSBarcodeLib.zip", :type => "zip" }
   spec.vendored_frameworks = "OSBarcodeLib.xcframework"
 end
