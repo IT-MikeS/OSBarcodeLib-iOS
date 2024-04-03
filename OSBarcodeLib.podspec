@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |spec|
   spec.name = "OSBarcodeLib"
-  spec.version = "0.0.1"
+  spec.version = "0.0.2"
   spec.summary = "A short description of OSBarcodeLib."
   spec.homepage = "https://github.com/OutSystems/OSBarcodeLib-iOS"
   spec.license = "MIT"
