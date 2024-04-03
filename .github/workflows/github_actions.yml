@@ -3,7 +3,7 @@ name: GitHub Actions
 on:
   workflow_dispatch:
   push:
-    branches: [ main, development ]
+    branches: [ development ]
   pull_request:
     branches: [ main, development ]
 
