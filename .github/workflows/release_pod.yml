@@ -21,7 +21,7 @@ jobs:
           ruby-version: '3.3'
 
       - name: Bump version
-        run: ruby ./scripts/bump_version.rb ${{ github.event.inputs.versionBumpLevel }}
+        run: ruby ./scripts/bump_pod_version.rb ${{ github.event.inputs.versionBumpLevel }}
 
       - name: Build XCFramework
         run: ./scripts/build_framework.sh
