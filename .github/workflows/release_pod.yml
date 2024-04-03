@@ -40,7 +40,7 @@ jobs:
           name: v${{ env.VERSION }}
           draft: false
           prerelease: false
-          files: 'scripts/build/OSBarcodeLib.xcframework.zip'
+          files: 'scripts/build/OSBarcodeLib.zip'
       
       - name: Commit changes
         run: |
