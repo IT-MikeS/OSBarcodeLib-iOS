@@ -2,16 +2,12 @@
 Pod::Spec.new do |spec|
   spec.name = "OSBarcodeLib"
   spec.version = "0.0.2"
-  spec.summary = "A short description of OSBarcodeLib."
+  spec.summary = "The OSBarcodeLib is a library built using Swift that offers you a barcode scanner for your iOS application."
   spec.homepage = "https://github.com/OutSystems/OSBarcodeLib-iOS"
   spec.license = "MIT"
   spec.author = "OutSystems"
   spec.ios.deployment_target  = '13.0'
   spec.swift_version = '5.1'
-
-  spec.source = { :http => "https://github.com/OutSystems/OSBarcodeLib-iOS.git" }
-
-  spec.source_files  = "OSBarcodelib.framework/Headers/*.h"
-  spec.vendered_frameworks = "OSBarcodelib.framework"
-
+  spec.source = { :http => "https://github.com/IT-MikeS/OSBarcodeLib-iOS/releases/download/v#{spec.version}/OSBarcodeLib.xcframework.zip" }
+  spec.vendored_frameworks = "OSBarcodeLib.xcframework"
 end
